@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Daniel Redondo Velasco</title>
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" type="image/x-icon" href="favicon2.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="volverArriba.js"></script>
+    <script src="Theme.js"></script>
+    <script src="script.js"></script>
+</head>
+<body class="main">
+<a href="javascript:void(0);" id="scroll" title="Scroll to Top" style="display: none;">Top<span></span></a>
+
+<!--
+<header>
+    <div class="heeaderContainer">
+        <img src="icono2.svg" alt="logo" class="logo">
+    </div>
+</header>
+-->
+
+<div class="titulo">
+    <h1>
+    Daniel Redondo Velasco
+    </h1>
+</div>
+
+<div class="subtitulo">
+    <h2>
+        &lt;/SOFTWARE DEVELOPER&gt;
+    </h2>
+</div>
+
+
+<div class="switch-container">
+    <label class="switch">
+        <input type="checkbox" id="toggleSwitch">
+        <span class="slider"></span>
+    </label>
+    <p id="status">Apagado</p>
+</div>
+
+
+
+
+<nav>
+    <div class="contentBox">
+        <div id="sobre-miBtn" class="buttonBox">
+            <button onclick="document.getElementById('sobre-mi').scrollIntoView();" name="presentacion">Sobre mí</button>
+        </div>
+        <div id="aptitudesBtn" class="buttonBox">
+            <button onclick="document.getElementById('aptitudes').scrollIntoView();" name="aptitudes">Aptitudes</button>
+        </div>
+        <div id="formacionBtn" class="buttonBox">
+            <button onclick="document.getElementById('formacion').scrollIntoView();" name="aptitudes">Formación</button>
+        </div>
+        <div id="proyectosBtn" class="buttonBox">
+            <button onclick="document.getElementById('proyectos').scrollIntoView();" name="proyectos">Proyectos</button>
+        </div>
+        <div id="contactoBtn" class="buttonBox">
+            <button onclick="document.getElementById('contacto').scrollIntoView();" name="contactos">Contacto</button>
+        </div>
+    </div>
+
+    <div class="curriulum-box">
+        <div id="curriculumBtn" class="buttonBox">
+            <button onclick="document.getElementById('curriculum').scrollIntoView();" name="curriculum">Curriculum</button>
+        </div>
+    </div>
+
+</nav>
+
+<div class="container">
+
+    <section id="sobre-mi" class="sobre-mi-section">
+        <h2>Sobre mí</h2>
+        <div class="sobre-mi-content">
+            <div class="sobre-mi-text">
+                <p>Hola, me llamo Daniel Redondo Velasco.<br>
+                    Vallisoletano, nacido en Peñafiel.<br>
+                    Desarrollador de software.<br>
+                    Me especializo en desarrollo de software multiplataforma, programación y diseño de bases de datos.</p>
+            </div>
+
+        </div>
+    </section>
+    <section id="aptitudes">
+        <h2>Aptitudes</h2>
+        <ul>
+            <li>Desarrollo web con HTML y CSS</li>
+            <li>Diseño de diagramas UML, modelo E/R y modelo relacional</li>
+            <li>Desarrollo de aplicaciones multiplataforma con Java</li>
+            <li>Programación de bases de datos relacionales SQL</li>
+            <li>Habilidades en diseño de bases de datos con SQL y Oracle</li>
+        </ul>
+    </section>
+    <section id="formacion">
+        <h2>Formación</h2>
+        <ul>
+            <li>Bachillerato cientifico y tecnológico. I.E.S. Conde Lucanor, Peñafiel</li>
+            <li>Formación Profesional en Desarrollo de Aplicaciones Multiplataforma C.I.F.P. Juan de Herrera, Valladolid</li>
+        </ul>
+    </section>
+
+
+    <section id="proyectos">
+        <h2>Proyectos</h2>
+        <p>Aquí puedes encontrar algunos de los proyectos en los que he trabajado:</p>
+        <ul>
+            <li><strong>Ejercicios primero de DAM</strong> <br>&ensp;&ensp;Ejercicios realizados durante el primer año del curso de Formación Profesional en Desarrollo de Aplicaciones Multiplataforma<br>
+                &ensp;&ensp;Repositorio de GitHub:<a href="https://github.com/daniredvel/1DAM" target="_blank">  GitHub : 1DAM</a>
+                <br><br>
+            </li>
+
+        </ul>
+    </section>
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Medios de contacto</p>
+        <p>Email: <a href="mailto:danielredondovelasco@gmail.com">danielredondovelasco@gmail.com</a></p>
+        <p>GitHub: <a href="https://github.com/daniredvel" target="_blank">danielredvel</a></p>
+        <!--
+        <p>Instagram: <a href="link a instagram" target="_blank">dani.revel</a></p>
+        <p>X - Twitter: <a href="link a twitter" target="_blank">dani.revel</a></p>
+        -->
+
+        <section id="curriculum">
+            <a class="buttonCV" href="Curriculum Vitae.pdf" download="Curriculum Vitae.pdf">Descargar Curriculum</a>
+        </section>
+
+<!--
+        <section id="contact">
+            <h2>Envíame un mensaje &#128490;</h2>
+            <form>
+                <label for="name">*Nombre:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">*Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="telefono">Telefono:</label>
+                <input type="number" id="telefono" name="telefono"></input>
+                <label for="message">*Mensaje:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit" class="buttonBox">Enviar</button>
+            </form>
+            <p id="infoRequerida">*Información requerida</p>
+        </section>
+
+
+    -->
+    </section>
+
+    <footer class="copyright">
+        <p>&copy; 2024 Daniel Redondo Velasco. Todos los derechos reservados.</p>
+    </footer>
+</div>
+</body>
+</html>
